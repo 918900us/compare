@@ -3,6 +3,10 @@ import Imagesone from "../assets/Image1.svg"
 import Imagess from "../assets/702.svg"
 import Imagesss from "../assets/703.svg"
 import Imagessss from "../assets/704.svg"
+import Imagestwo from "../assets/caravan1.jpg"
+import Imagesthree from "../assets/tuningg.jpg"
+import Imagesfour from "../assets/usedcars.jpg"
+import Imagesfive from "../assets/camping.jpg"
 
 export const Mavbardiv= styled.div`
 display: flex;
@@ -124,7 +128,7 @@ width: 100%;
 height: 1970px;
 @media only screen and (max-width: 900px) {
     display: flex;}
-    height: 3700px;
+    height: 2000px;
 `
 export const Sidebar= styled.div`
 display: flex;
@@ -429,4 +433,173 @@ display: none;
     
 }
 
+`
+
+export const Multudiv=styled.div`
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+ width: 276px !important;
+height: 329px;
+flex-shrink: 0;
+`
+
+export const Videos=styled.div`
+display: grid;
+grid-template-areas: "a a a a";
+align-items: center;
+justify-content: center;
+gap:20px;
+`
+export const TagDiv=styled.div`
+display: grid;
+grid-template-areas: "a a a";
+gap: 1px;
+`
+
+
+// caravan
+
+export const Cravanrasm= styled.div`
+background-image: url(${Imagestwo});
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 600px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:0px;
+
+`
+export const Paragref3= styled.p`
+color: green;
+
+font-size: ${(props)=> (props.$prime? "16px": "27px")};
+font-weight: ${(props)=> (props. $prime?"500": "700")};
+font-style: normal;
+line-height: normal;
+`
+export const Caravann= styled.h1`
+color: orange;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+`
+
+// tuning
+
+export const Tuningrasm= styled.div`
+background-image: url(${Imagesthree});
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 600px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:0px;
+
+`
+export const Paragref4= styled.p`
+color: green;
+
+font-size: ${(props)=> (props.$prime? "16px": "27px")};
+font-weight: ${(props)=> (props. $prime?"500": "700")};
+font-style: normal;
+line-height: normal;
+`
+export const Tuningg= styled.h1`
+color: orange;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+`
+
+export const Usedcarsrasm= styled.div`
+background-image: url(${Imagesfour});
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 600px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:0px;
+
+`
+export const Paragref5= styled.p`
+color: red;
+
+font-size: ${(props)=> (props.$prime? "16px": "27px")};
+font-weight: ${(props)=> (props. $prime?"500": "700")};
+font-style: normal;
+line-height: normal;
+`
+export const SecondHand= styled.h1`
+color: red;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+`
+
+export const Campingrasm= styled.div`
+background-image: url(${Imagesfive});
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 600px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:0px;
+
+`
+export const Paragref6= styled.p`
+color: white;
+
+font-size: ${(props)=> (props.$prime? "16px": "27px")};
+font-weight: ${(props)=> (props. $prime?"500": "700")};
+font-style: normal;
+line-height: normal;
+`
+export const Campingplace= styled.h1`
+color: white;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+`
+
+export const Campingdiv=styled.div`
+display: grid;
+grid-template-areas: "a a a";
+justify-content: center;
+align-items: center;
+margin-top: 90px;
+gap:25px;
+transition: 0.3s ease;
+:hover{
+    cursor: pointer;
+    width: 310px;
+    height: 210px;
+    transition: 0.3s ease;
+}
 `

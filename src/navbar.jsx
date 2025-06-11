@@ -1,4 +1,6 @@
+import { Link } from "react-router"
 import { Aaaa, Lng, Loginbar, Logo, Mavbardiv, Menu, Paragref } from "./MainStyle/style"
+
 
 
 const Navbar = () => {
@@ -14,11 +16,11 @@ const Navbar = () => {
     </Aaaa>
     <Logo>Camper</Logo>
     <Menu>
-        <Paragref>Motor</Paragref>
-        <Paragref>Caravan</Paragref>
-        <Paragref>Tuning</Paragref>
-        <Paragref>Used Cars</Paragref>
-        <Paragref>Camping Place</Paragref>
+        <Link to={"/Motor"}><Paragref>Motor</Paragref></Link>
+        <Link to={"/Caravan"}><Paragref>Caravan</Paragref></Link>
+        <Link to={"/Tuning"}><Paragref>Tuning</Paragref></Link>
+        <Link to={"/UsedCars"}><Paragref>Used Cars</Paragref></Link>
+        <Link to={"/Camping"}><Paragref>Camping Place</Paragref></Link>
     </Menu>
 
     <Loginbar>
@@ -35,6 +37,7 @@ const Navbar = () => {
             <option value="">En</option>
             <option value="">Uz</option>
         </Lng>
+        
 
 
     </Loginbar>
