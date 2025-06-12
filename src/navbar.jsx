@@ -21,6 +21,7 @@ const Navbar = () => {
         <Link to={"/Tuning"}><Paragref>Tuning</Paragref></Link>
         <Link to={"/UsedCars"}><Paragref>Used Cars</Paragref></Link>
         <Link to={"/Camping"}><Paragref>Camping Place</Paragref></Link>
+        <Link to={"/user"}><Paragref>User</Paragref></Link>
     </Menu>
 
     <Loginbar>

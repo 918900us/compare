@@ -603,3 +603,9 @@ transition: 0.3s ease;
     transition: 0.3s ease;
 }
 `
+export const Usercon= styled.div`
+display: grid;
+grid-template-areas:"a a a a" ;
+align-items: center;
+justify-content: center;
+`
