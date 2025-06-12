@@ -608,4 +608,13 @@ display: grid;
 grid-template-areas:"a a a a" ;
 align-items: center;
 justify-content: center;
+gap:20px;
+`
+export const UserWrapeer=styled.div`
+display: flex;
+border: 1px solid black;
+border-radius: 15px;
+width: 200px;
+height: 300px;
+
 `
